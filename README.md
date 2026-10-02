@@ -28,13 +28,24 @@ Character Hand Sign
 🔥 Sukuna Open palm
 
 🛠️ Technologies
-Technology	Purpose
-🐍 Python	Core programming language
-👁️ OpenCV	Webcam capture and video processing
-✋ MediaPipe	Real-time hand landmark detection
-🔢 NumPy	Numerical and image-data processing
-🔊 Pygame	Domain audio playback
-🎬 MoviePy	Audio extraction from domain videos
+🐍 Python
+   └── Core programming language
+
+👁️ OpenCV
+   └── Webcam capture and video processing
+
+✋ MediaPipe
+   └── Real-time hand landmark detection
+
+🔢 NumPy
+   └── Numerical and image-data processing
+
+🔊 Pygame
+   └── Domain audio playback
+
+🎬 MoviePy
+   └── Audio extraction from domain videos
+
 
 📁 Project Structure
 DomainVision/
