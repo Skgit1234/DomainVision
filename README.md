@@ -1,28 +1,34 @@
-🌀 JJK Domain Expansion — MediaPipe
+⚡ DomainVision
 
-A real-time computer vision project that uses Python, OpenCV, and MediaPipe to detect hand signs through a webcam and trigger a Jujutsu Kaisen-inspired Domain Expansion effect.
+A real-time Jujutsu Kaisen-inspired Domain Expansion project using Python, OpenCV, and MediaPipe.
+
+DomainVision detects hand signs through your webcam and triggers different Domain Expansion videos.
 
 ✨ Features
 
-🎥 Real-time webcam input
+🎥 Real-time webcam hand tracking
 
-✋ MediaPipe hand tracking
+🌀 Gojo Domain Expansion
 
-🤞 Gojo-style hand-sign detection
+🔥 Sukuna Domain Expansion
 
-🌀 Unlimited Void domain video effect
+🖐️ Simple hand-sign controls
 
-🔊 Domain activation sound
+🔊 Domain-specific audio
 
-🔁 Domain video automatically loops
+⚡ Real-time detection using MediaPipe
 
-⚡ Real-time OpenCV processing
+🖥️ Normal 960×540 playback window
 
-🎮 Press Q or ESC to exit
+🎬 Videos play at their original FPS
 
+🖐️ Hand Signs
+Character	Hand Sign
+🌀 Gojo	Index + Middle fingers up
+🔥 Sukuna	Open palm
 🛠️ Technologies
 
-Python 3.12
+Python
 
 OpenCV
 
@@ -32,102 +38,61 @@ NumPy
 
 Pygame
 
+MoviePy
+
 📁 Project Structure
-Dr Strange/
-│
-├── assets/
-│   ├── gojo_domain.mp4
-│   └── gojo_sound.mp3
+DomainVision/
 │
 ├── app.py
 ├── requirements.txt
+├── README.md
 ├── .gitignore
-└── README.md
+│
+└── assets/
+    ├── gojo_domain.mp4
+    ├── gojo_sound.mp3
+    ├── sukuna_domain.mp4
+    └── sukuna_sound.mp3
 
-🚀 Installation
-1. Create a virtual environment
+🚀 Setup
+
+Create and activate a virtual environment:
+
 python -m venv venv
 
-2. Activate the virtual environment
 
 Windows:
 
 venv\Scripts\activate
 
-3. Install dependencies
+
+Install dependencies:
+
 pip install -r requirements.txt
 
-4. Run the project
+
+Run the project:
+
 python app.py
 
-🎮 How To Use
+🎮 Controls
 
-Start the application.
+Gojo: Show index + middle fingers
 
-Allow camera access if Windows asks.
+Sukuna: Show an open palm
 
-Show the configured Gojo hand sign.
-
-The Domain Expansion video will activate.
-
-The domain sound will play.
-
-Remove the hand sign to return to the normal camera.
-
-Press Q or ESC to exit.
-
-⚙️ Camera Configuration
-
-The project currently uses:
-
-CAMERA_INDEX = 0
-
-
-If your webcam doesn't open, try:
-
-CAMERA_INDEX = 1
-
-
-or:
-
-CAMERA_INDEX = 2
+Q / ESC: Exit the application
 
 🔒 Privacy
 
-Camera frames are processed locally by the application.
+DomainVision processes the webcam feed locally through OpenCV and MediaPipe. The application does not contain code that uploads the webcam feed to a remote server.
 
-This project does not contain code that uploads the webcam feed to a remote server.
+⚠️ Disclaimer
 
-📌 Roadmap
+This is a fan-made educational project inspired by Jujutsu Kaisen. Character names, concepts, and media belong to their respective rights holders.
 
- Webcam hand tracking
+👨‍💻 Author
 
- Gojo hand-sign detection
+Sarvesh Kundale
 
- Unlimited Void video effect
-
- Domain activation sound
-
- Sukuna hand-sign detection
-
- Malevolent Shrine domain
-
- Better hand-sign recognition
-
- Cinematic transition effects
-
- Portal/ring visual effects
-
- Improved performance and FPS
-
- More JJK-inspired effects
-
-⚠️ Assets & Copyright
-
-The video and audio files inside assets/ should only be redistributed if you have the necessary rights or permission to use them.
-
-If publishing this project publicly, consider replacing copyrighted assets with original or properly licensed assets.
-
-⭐ Future Goal
-
-The goal is to turn this into a real-time AR-style Domain Expansion experience using computer vision and visual effects.
+Built with Python, OpenCV and MediaPipe.
