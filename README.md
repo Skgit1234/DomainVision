@@ -26,14 +26,15 @@ DomainVision detects hand signs through your webcam and triggers different Domai
 Character Hand Sign
 🌀 Gojo Index + Middle fingers up
 🔥 Sukuna Open palm
+
 🛠️ Technologies
-Technology Purpose
-🐍 Python Core programming language
-👁️ OpenCV Webcam capture and video processing
-✋ MediaPipe Real-time hand landmark detection
-🔢 NumPy Numerical and image-data processing
-🔊 Pygame Domain audio playback
-🎬 MoviePy Audio extraction from domain videos
+Technology	Purpose
+🐍 Python	Core programming language
+👁️ OpenCV	Webcam capture and video processing
+✋ MediaPipe	Real-time hand landmark detection
+🔢 NumPy	Numerical and image-data processing
+🔊 Pygame	Domain audio playback
+🎬 MoviePy	Audio extraction from domain videos
 
 📁 Project Structure
 DomainVision/
@@ -44,10 +45,10 @@ DomainVision/
 ├── .gitignore
 │
 └── assets/
-├── gojo_domain.mp4
-├── gojo_sound.mp3
-├── sukuna_domain.mp4
-└── sukuna_sound.mp3
+    ├── gojo_domain.mp4
+    ├── gojo_sound.mp3
+    ├── sukuna_domain.mp4
+    └── sukuna_sound.mp3
 
 🚀 Setup
 
