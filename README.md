@@ -23,22 +23,17 @@ DomainVision detects hand signs through your webcam and triggers different Domai
 🎬 Videos play at their original FPS
 
 🖐️ Hand Signs
-Character	Hand Sign
-🌀 Gojo	Index + Middle fingers up
-🔥 Sukuna	Open palm
+Character Hand Sign
+🌀 Gojo Index + Middle fingers up
+🔥 Sukuna Open palm
 🛠️ Technologies
-
-Python
-
-OpenCV
-
-MediaPipe
-
-NumPy
-
-Pygame
-
-MoviePy
+Technology Purpose
+🐍 Python Core programming language
+👁️ OpenCV Webcam capture and video processing
+✋ MediaPipe Real-time hand landmark detection
+🔢 NumPy Numerical and image-data processing
+🔊 Pygame Domain audio playback
+🎬 MoviePy Audio extraction from domain videos
 
 📁 Project Structure
 DomainVision/
@@ -49,14 +44,15 @@ DomainVision/
 ├── .gitignore
 │
 └── assets/
-    ├── gojo_domain.mp4
-    ├── gojo_sound.mp3
-    ├── sukuna_domain.mp4
-    └── sukuna_sound.mp3
+├── gojo_domain.mp4
+├── gojo_sound.mp3
+├── sukuna_domain.mp4
+└── sukuna_sound.mp3
 
 🚀 Setup
+
 1. Create a virtual environment
-python -m venv venv
+   python -m venv venv
 
 2. Activate the virtual environment
 
@@ -65,10 +61,10 @@ Windows:
 venv\Scripts\activate
 
 3. Install dependencies
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Run the project
-python app.py
+   python app.py
 
 🎮 Controls
 
