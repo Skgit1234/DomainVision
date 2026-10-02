@@ -55,33 +55,28 @@ DomainVision/
     └── sukuna_sound.mp3
 
 🚀 Setup
-
-Create and activate a virtual environment:
-
+1. Create a virtual environment
 python -m venv venv
 
+2. Activate the virtual environment
 
 Windows:
 
 venv\Scripts\activate
 
-
-Install dependencies:
-
+3. Install dependencies
 pip install -r requirements.txt
 
-
-Run the project:
-
+4. Run the project
 python app.py
 
 🎮 Controls
 
-Gojo: Show index + middle fingers
+🌀 Gojo: Show index + middle fingers
 
-Sukuna: Show an open palm
+🔥 Sukuna: Show an open palm
 
-Q / ESC: Exit the application
+❌ Q / ESC: Exit the application
 
 🔒 Privacy
 
@@ -90,9 +85,3 @@ DomainVision processes the webcam feed locally through OpenCV and MediaPipe. The
 ⚠️ Disclaimer
 
 This is a fan-made educational project inspired by Jujutsu Kaisen. Character names, concepts, and media belong to their respective rights holders.
-
-👨‍💻 Author
-
-Sarvesh Kundale
-
-Built with Python, OpenCV and MediaPipe.
