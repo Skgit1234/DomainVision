@@ -50,16 +50,16 @@ Character Hand Sign
 📁 Project Structure
 DomainVision/
 │
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
+├── 🐍 app.py
+├── 📦 requirements.txt
+├── 📖 README.md
+├── ⚙️ .gitignore
 │
-└── assets/
-    ├── gojo_domain.mp4
-    ├── gojo_sound.mp3
-    ├── sukuna_domain.mp4
-    └── sukuna_sound.mp3
+└── 📂 assets/
+    ├── 🌀 gojo_domain.mp4
+    ├── 🔊 gojo_sound.mp3
+    ├── 🔥 sukuna_domain.mp4
+    └── 🔊 sukuna_sound.mp3
 
 🚀 Setup
 
